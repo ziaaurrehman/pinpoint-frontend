@@ -1,0 +1,263 @@
+@font-face {
+    font-family: montserrat-regular;
+    src: url("/public/fonts/Montserrat-Regular.ttf");
+  }
+  @font-face {
+    font-family: montserrat-medium;
+    src: url("/public/fonts/Montserrat-Medium.ttf");
+  }
+  @font-face {
+    font-family: montserrat-semiBold;
+    src: url("/public/fonts/Montserrat-SemiBold.ttf");
+  }
+  @font-face {
+    font-family: montserrat-light;
+    src: url("/public/fonts/Montserrat-Light.ttf");
+  }
+
+  .hero{
+    background-image: url(/public/images1/HERO\ SECTION.svg);
+  }
+  .fix-padding{
+padding-left: 50px;
+padding-right: 50px;
+  }
+  .text_1{
+    font-family: montserrat-medium;
+
+  }
+  .fansbg{
+    background-image: url(/public/images1/Testimonials.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pd_x{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .ant-radio-input{
+    border: none !important;
+  }
+
+  .ant-radio-wrapper .ant-radio-checked .ant-radio-inner::after {
+    background-color: #175594 !important;
+    height: 40px !important;
+    width: 40px !important;
+    left: -1px !important;
+    top: 0 !important;
+    border-radius: 50% !important;
+  }
+
+  .ant-radio-wrapper .ant-radio-inner{
+    height: 25px !important;
+    width: 25px !important;
+  }
+  .ant-radio-wrapper .ant-radio {
+    font-size: 19px !important;
+    font-family: montserrat-regular !important;
+  }
+  .ant-radio-inner{
+    background: #D9D9D9 !important;
+  }
+  .radio input[type="radio"]:checked ~ span ::after{
+    transform: translate(-50%,-50%) scale(0);
+  }
+  .primary1{
+    color:#EC2226;
+  }
+
+  .primary2{
+    color:#165593;
+  }
+  .search_input{
+    font-family: montserrat-medium;
+  }
+  .search_input::placeholder{
+    color:#8D1A1C;
+    font-size: 20px;
+  }
+  .border_line2{
+    border-radius: 20px;
+  }
+  .text_3 {
+    font-size: 45px;
+    font-family: montserrat-medium;
+  }
+  .react-multi-carousel-dot--active button {
+    background-color: #175594 !important;
+  }
+  .react-multi-carousel-dot button{
+    border-color: transparent !important;
+    background-color: #fff;
+    box-shadow: 2px 4px 4px !important;
+  }
+  .text_4{
+    font-size: 28px;
+    font-family: montserrat-medium;
+  }
+  .top_btn{
+  position: fixed;
+  top: 88%;
+  right: 6%;
+  background-color: #8D1A1C;
+  width: 3.5rem;
+  border-radius: 50%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 3.5rem;
+  }
+  .top_btn:hover {
+    background-color: #165593;
+    cursor: pointer;
+    animation: slidebg 2s linear infinite;
+    transition: all 0.25s;
+    border: 3px solid #8D1A1C;
+  }
+  .top-btn--icon{
+color: #fff !important;
+height: 1.7rem;
+width: 1.7rem;
+  }
+  .defult_img{
+margin-top: -6px !important;
+  }
+  .center_view{
+align-items: center;
+  }
+  .montserrat_regular {
+    font-family: montserrat-regular;
+  }
+  .montserrat_light {
+    font-family: montserrat-light;
+  }
+  .montserrat_medium {
+    font-family: montserrat-medium;
+  }
+  .montserrat_semibold {
+    font-family: montserrat-semiBold;
+  }
+  .card:hover {
+    border:2px dotted #8D1A1C ;
+    animation: slidebg 2s linear infinite;
+    border-radius: 10px;
+    color: #8D1A1C;
+    transition: all 0.15s;
+    font-family: montserrat-semiBold;
+  }
+
+  .btnn:hover{
+  background-color: #f7a2a5;
+    animation: slidebg 2s linear infinite;
+    border-radius: 20px;
+    transition: all 0.25s;
+    font-weight: 500;
+  }
+  .react-multi-carousel-dot-list{
+    bottom: 12px !important;
+  }
+  .submit_btn:hover {
+    border: 2px solid #165593;
+    animation: slidebg 2s linear infinite;
+    background: none;
+    color:#165593 !important;
+    transition: all 0.45s;
+  }
+  .area_plceholder::placeholder{
+color: #000;
+  }
+  .input_field{
+border: 1px solid #D9D9D9;
+height: 60px;
+border-radius: 12px;
+  }
+  .border_line{
+    border: 1px solid #D9D9D9;
+    border-radius: 12px;
+  }
+  .input_field::placeholder {
+    color: #000;
+  } 
+  .section_4{
+   background-image: url(/public/images1/How\ to\ use\ pinpoint\ section.svg);
+  }
+  .react-multi-carousel-list{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  .react-multi-carousel-list {
+    padding-bottom: 97px !important;
+  }
+  .react-multi-carousel-dot button{
+    height: 60px !important;
+    width: 60px !important;
+  }
+  @media (max-width: 586px) {
+   .btnn{
+    margin-left: 13px;
+   }
+   .defult_img{
+    margin-top: 9px !important;
+  }
+    .hero{
+      padding-left: 20px;
+      padding-right: 20px;
+        }
+        .tect_center{
+text-align: center;
+        }
+        .hero_section_1{
+      padding-top: 136px;
+        }
+        .search_input::placeholder{
+          font-size: 13px;
+        }
+        .img_section{
+      padding-top: 60px;
+        }
+        .d_none{
+          display: none;
+        }
+.pd_x{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.mobile_view{
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.react-multi-carousel-list{
+  padding-left: 26px !important;
+  padding-bottom: 40px !important;
+}
+.mbl-w{
+width: 310px;
+}
+.react-multi-carousel-dot button {
+height: 25px !important;
+width: 25px !important;
+  }
+  .slide{
+height: 463px !important;
+  }
+  .mpl{
+padding-left: 0 !important;
+  }
+  .mbl_h{
+height: 250px !important;
+  }
+  .submit_btn{
+    width: 100%;
+  }
+  .mobile_view_div{
+width: 90px !important;
+margin-left: 0 !important;
+padding-top: 15px !important;
+height: 90px !important;
+margin-top: 15px;
+  }
+  .mobile_view_div img {
+width: 25px;
+  }
+
+  }
